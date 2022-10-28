@@ -1,0 +1,13 @@
+[package]
+edition = "2018"
+name = "difference-of-squares"
+version = "1.2.0"
+
+[dependencies]
+num-integer = "*"
+num-iter = "*"
+num-traits = "*"
+typenum = "*"
+ndarray = "*"
+generic-array = "*"
+num = "*"

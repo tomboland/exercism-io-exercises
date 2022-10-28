@@ -1,0 +1,16 @@
+library:
+  source-dirs: src
+  ghc-options: -Wall
+  exposed-modules: Brackets
+tests:
+  test:
+    source-dirs: test
+    main: Tests.hs
+    dependencies:
+    - matching-brackets
+    - hspec
+dependencies:
+- mtl
+- base
+name: matching-brackets
+version: 2.0.0.8

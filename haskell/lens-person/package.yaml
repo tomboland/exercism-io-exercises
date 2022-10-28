@@ -1,0 +1,17 @@
+library:
+  source-dirs: src
+  ghc-options: -Wall
+  exposed-modules: Person
+tests:
+  test:
+    source-dirs: test
+    main: Tests.hs
+    dependencies:
+    - lens-person
+    - hspec
+dependencies:
+- lens
+- base
+- time
+name: lens-person
+version: 0.1.0.3
